@@ -18,3 +18,4 @@ class String
     self.split(/[!?.]/).reject!(&:empty?).count
   end
 end
+  
